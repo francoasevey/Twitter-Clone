@@ -25,5 +25,9 @@ header section{
     position: relative;
     width: 85%;
     height: 100%;
-    border: 2px solid green;
+    /*border: 2px solid green;*/
+}
+header aside .logo{
+    font-size: 30px;
+    color: #1ca1f1;
 }
