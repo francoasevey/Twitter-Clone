@@ -408,3 +408,29 @@ section
     border-radius: 5px;
     padding: 0px 10px;
 }
+header 
+section
+    .profile_post_follow_bx
+    .post_follow_bx
+    .post
+    .post_main_bx
+    .post_card_bx
+    .content
+    .retweet {
+        color: rgba(0, 0, 0, .3);
+        font-size: 11px;
+        display: flex;
+        align-items: center;
+}
+header 
+section
+    .profile_post_follow_bx
+    .post_follow_bx
+    .post
+    .post_main_bx
+    .post_card_bx
+    .content
+    .retweet i {
+        font-size: 10px;
+        margin-right: 5px;
+}
