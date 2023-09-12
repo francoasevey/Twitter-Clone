@@ -129,6 +129,10 @@ header section nav .user{
     display: flex;
     align-items: center;
 }
+header section nav .user{
+    display: flex;
+    align-items: center;
+}
 header section nav .user img{
     margin-left: 10px;
     width: 30px;
@@ -157,7 +161,7 @@ header section .profile_post_follow_bx{
 header section .profile_post_follow_bx .profile_bx{
     width: 250px;
     height: auto;
-    border: 1px solid #000;
+    /*border: 1px solid #000;*/
 }
 header section .profile_post_follow_bx .profile_bx .profile_card{
     position: relative;
@@ -244,4 +248,66 @@ header section .profile_post_follow_bx .profile_bx .profile_card .data .data_car
     font-size: 12px;
     padding: 3px 0px 7px 0px;
     color: #000;
+}
+header section .profile_post_follow_bx .profile_bx .activity_bx{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /*border: 1px solid #000;*/
+    margin-top: 10px;
+}
+header section .profile_post_follow_bx .profile_bx .activity_card_bx{
+width: 115px;
+height: 90px;
+border: 2px solid rgba(213, 218, 222, 0.5);
+margin-top: 10px;
+border-radius: 8px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+transition: .3s linear;
+cursor: pointer;
+}
+header section .profile_post_follow_bx .profile_bx .activity_card_bx:nth-child(1){
+    background: #fff;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, .1);
+    border: 1px solid #fff;
+}
+header section .profile_post_follow_bx .profile_bx .activity_card_bx i,h6{
+    font-size: 20px;
+    color: #d5dade;
+    padding-top: 10px;
+    transition: .3s linear;
+}
+header section .profile_post_follow_bx .profile_bx .activity_card_bx h6{
+    color: rgba(0, 0, 0, .6);
+    font-size: 11px;
+}
+header section .profile_post_follow_bx .profile_bx .activity_card_bx:hover{
+    background: #fff;
+    border: 2px solid #fff;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, .1);
+} 
+header section .profile_post_follow_bx .profile_bx .activity_card_bx:hover h6{
+    color: #1ca1f1;
+}
+header section .profile_post_follow_bx .profile_bx .activity_card_bx:hover i{
+    color: #1ca1f1;
+}
+header section .profile_post_follow_bx .profile_bx .activity_card_bx:nth-child(1) h6{
+    color: #1ca1f1;
+}
+header section .profile_post_follow_bx .profile_bx .activity_card_bx:nth-child(1) i{
+    color: #1ca1f1;
+}
+header section .profile_post_follow_bx .post_follow_bx{
+    width: auto;
+    height: auto;
+    border: 1px solid #000;
+    margin-left: 20px;
+    display: flex;
 }
