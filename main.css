@@ -156,7 +156,7 @@ header section .profile_post_follow_bx{
     height: 73%;
     border: 1px solid #000;
     display: flex;
-    /*justify-content: center;*/
+    justify-content: flex-end;
 }
 header section .profile_post_follow_bx .profile_bx{
     width: 250px;
@@ -310,4 +310,33 @@ header section .profile_post_follow_bx .post_follow_bx{
     border: 1px solid #000;
     margin-left: 20px;
     display: flex;
+}
+header section .profile_post_follow_bx .post_follow_bx .post{
+    width: 500px;
+    height: 100%;
+    background: #fff;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, .1);
+    border-radius: 8px;
+}
+header section .profile_post_follow_bx .post_follow_bx .follow_bx{
+    width: 20px;
+    height: auto;
+    margin-left: 15px;
+}
+header section .profile_post_follow_bx .post_follow_bx .post nav{
+    border-radius: 8px 8px 0px 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    height: 10%;
+}
+header section .profile_post_follow_bx .post_follow_bx .post nav li{
+    border-bottom: 3px solid transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px 0px;
+    margin-right: 10px;
+    transition: .3s linear;
+}
+header section .profile_post_follow_bx .post_follow_bx .post nav li:hover{
+    border-bottom: 3px solid #1ca1f1;
 }
