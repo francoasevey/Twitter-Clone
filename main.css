@@ -532,6 +532,7 @@ section
         word-break: break-all;
         margin-top: 10px;
 }
+header
 section
     .profile_post_follow_bx
     .post_follow_bx
@@ -547,6 +548,7 @@ section
         border-radius: 5px;
         margin-top: 10px;
 }
+header
 section
     .profile_post_follow_bx
     .post_follow_bx
@@ -562,6 +564,7 @@ section
         border-radius: 50%;
         margin-right: 10px;
 }
+header
 section
     .profile_post_follow_bx
     .post_follow_bx
@@ -569,23 +572,89 @@ section
     .post_main_bx
     .post_card_bx
     .content 
-    .retweet_content_bx 
     .tweet_card_social_data{
         display: flex;
         align-items: center;
         justify-content: space-between;
         margin-top: 15px;
 }
+header
 section
     .profile_post_follow_bx
     .post_follow_bx
     .post
     .post_main_bx
     .post_card_bx
-    .content 
-    .retweet_content_bx 
+    .content
     .tweet_card_social_data
     .tweet_social_card{
         width: 25%;
-        
+        display: flex;
+        align-items: center;
+        justify-content: 5px;
+        padding: 5px;
+}
+header
+section
+    .profile_post_follow_bx
+    .post_follow_bx
+    .post
+    .post_main_bx
+    .post_card_bx
+    .content
+    .tweet_card_social_data
+    .tweet_social_card:nth-child(2){
+    border-left: 1px solid rgba(0, 0, 0, .1);
+    border-right: 1px solid rgba(0, 0, 0, .1);
+}
+header
+section
+    .profile_post_follow_bx
+    .post_follow_bx
+    .post
+    .post_main_bx
+    .post_card_bx
+    .content
+    .tweet_card_social_data
+    .tweet_social_card:nth-child(3){
+    border-right: 1px solid rgba(0, 0, 0, .1);
+}
+header
+section
+    .profile_post_follow_bx
+    .post_follow_bx
+    .post
+    .post_main_bx
+    .post_card_bx
+    .content
+    .tweet_card_social_data
+    .tweet_social_card i{
+    color: rgba(0, 0, 0, 0.2);
+    margin-right: 5px;
+    font-size: 14px;
+}
+header
+section
+    .profile_post_follow_bx
+    .post_follow_bx
+    .post
+    .post_main_bx
+    .post_card_bx
+    .content
+    .tweet_card_social_data
+    .tweet_social_card span{
+    font-size: 13px;
+    font-weight: 500;
+}
+header
+section
+    .profile_post_follow_bx
+    .post_follow_bx
+    .post
+    .post_main_bx
+    .post_card_bx
+    .content
+    .tweet_card_social_data
+    .tweet_social_card:nth-child(3) i{
+    color: red;
 }
