@@ -562,3 +562,30 @@ section
         border-radius: 50%;
         margin-right: 10px;
 }
+section
+    .profile_post_follow_bx
+    .post_follow_bx
+    .post
+    .post_main_bx
+    .post_card_bx
+    .content 
+    .retweet_content_bx 
+    .tweet_card_social_data{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 15px;
+}
+section
+    .profile_post_follow_bx
+    .post_follow_bx
+    .post
+    .post_main_bx
+    .post_card_bx
+    .content 
+    .retweet_content_bx 
+    .tweet_card_social_data
+    .tweet_social_card{
+        width: 25%;
+        
+}
