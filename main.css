@@ -322,7 +322,7 @@ header section .profile_post_follow_bx .post_follow_bx .follow_bx {
     width: 250px;
     height: auto;
     margin-left: 15px;
-    border: 1px solid #000;
+    /*border: 1px solid #000;*/
 }
 header section .profile_post_follow_bx .post_follow_bx .post nav{
     border-radius: 8px 8px 0px 0px;
@@ -904,6 +904,7 @@ section
         display: flex;
         align-items: center;
         margin-top: 10px;
+        width: 60%;
 }
 header
 section
@@ -928,7 +929,7 @@ section
     .follow_profile_name
     .user_name{
         margin-left: 10px;
-        min-width: 55%;
+        width: 80%;
 }
 header
 section
@@ -986,4 +987,56 @@ section
         font-size: 11px;
         color: rgb(0, 0, 0, 0.4);
         font-weight: 600;
+}
+header
+section
+    .profile_post_follow_bx
+    .post_follow_bx
+    .follow_bx
+    .you_should_follow 
+    .follow_bx button{
+        border: none;
+        outline: none;
+        padding: 8px 12px;
+        background: #1ca1f1;
+        color: #fff;
+        border-radius: 20px;
+        font-size: 10px;
+        transition: .3s linear;
+        cursor: pointer;
+}
+header
+section
+    .profile_post_follow_bx
+    .post_follow_bx
+    .follow_bx
+    .you_should_follow 
+    .follow_bx button:hover{
+       background: rgba(28, 161, 241, .5);
+}
+header
+section
+    .profile_post_follow_bx
+    .post_follow_bx
+    .follow_bx
+    .you_should_follow
+    .see_more{
+        width: 100%;
+        border: none;
+        outline: none;
+        color: rgb(0, 0, 0, 0.4);
+        background: none;
+        padding: 10px 0px;
+        transition: .3s linear;
+        cursor: pointer;
+        font-size: 11px;
+}
+header
+section
+    .profile_post_follow_bx
+    .post_follow_bx
+    .follow_bx
+    .you_should_follow
+    .see_more:hover{
+        color: #000;
 }
