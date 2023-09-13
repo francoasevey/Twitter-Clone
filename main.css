@@ -381,7 +381,7 @@ section
     .post_main_bx
     .post_card_bx
     .post_profile {
-    width: 100%;
+    width: 10%;
 }
 header 
 section
@@ -404,7 +404,7 @@ section
     .post_card_bx
     .content {
     width: 90%;
-    border: 2px solid rgba(0, 0, 0, .1);
+    border: 2px solid rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     padding: 0px 10px;
 }
