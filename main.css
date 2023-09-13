@@ -658,3 +658,30 @@ section
     .tweet_social_card:nth-child(3) i{
     color: red;
 }
+header
+section
+    .profile_post_follow_bx
+    .post_follow_bx
+    .post
+    .post_main_bx
+    .post_card_bx
+    .content
+    .image_post_bx{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+header
+section
+    .profile_post_follow_bx
+    .post_follow_bx
+    .post
+    .post_main_bx
+    .post_card_bx
+    .content
+    .image_post_bx img{
+    width: 130px;
+    height: 90px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
