@@ -319,7 +319,7 @@ header section .profile_post_follow_bx .post_follow_bx .post{
     border-radius: 8px;
 }
 header section .profile_post_follow_bx .post_follow_bx .follow_bx {
-    width: 290px;
+    width: 250px;
     height: auto;
     margin-left: 15px;
     border: 1px solid #000;
@@ -710,6 +710,136 @@ section
     .profile_post_follow_bx
     .post_follow_bx
     .follow_bx
-    .trend_for_you{
-    background-color: #000;
+    .trend_for_you nav{
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    align-items: center;
+    border-radius: 8px 8px 0px 0px;
+    border-bottom: 1px solid rgb(0, 0, 0, .1);
+}
+header
+section
+    .profile_post_follow_bx
+    .post_follow_bx
+    .follow_bx
+    .trend_for_you nav h6{
+    font-size: 12px;
+    color: #000;
+    padding: 0;
+}
+header
+section
+    .profile_post_follow_bx
+    .post_follow_bx
+    .follow_bx
+    .trend_for_you 
+    .trend_bx{
+        width: 100%;
+        height: auto;
+        padding: 15px 15px 0px 15px;
+}
+header
+section
+    .profile_post_follow_bx
+    .post_follow_bx
+    .follow_bx
+    .trend_for_you
+    .trend_bx li{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0px;
+}
+header
+section
+    .profile_post_follow_bx
+    .post_follow_bx
+    .follow_bx
+    .trend_for_you
+    .trend_bx li a{
+        text-decoration: none;
+        font-size: 12px;
+        font-weight: 600;
+        color: #000;
+}
+header
+section
+    .profile_post_follow_bx
+    .post_follow_bx
+    .follow_bx
+    .trend_for_you
+    .trend_bx li a p{
+        text-decoration: none;
+        font-size: 10px;
+        font-weight: 500;
+        color: rgb(0, 0, 0, 0.4);
+}
+header
+section
+    .profile_post_follow_bx
+    .post_follow_bx
+    .follow_bx
+    .trend_for_you
+    .trend_bx li i{
+    font-size: 12px;
+}
+header
+section
+    .profile_post_follow_bx
+    .post_follow_bx
+    .follow_bx
+    .trend_for_you
+    .trend_bx .rate button{
+    border: none;
+    outline: none;
+    background: none;
+    margin-right: 5px;
+    color: rgb(0, 0, 0, 0.6);
+    transition: .3s linear;
+    cursor: pointer;
+}
+header
+section
+    .profile_post_follow_bx
+    .post_follow_bx
+    .follow_bx
+    .trend_for_you
+    .trend_bx .rate button{
+    border: none;
+    outline: none;
+    background: none;
+    margin-right: 5px;
+    color: rgb(0, 0, 0, 0.6);
+    transition: .3s linear;
+    cursor: pointer;
+}
+header
+section
+    .profile_post_follow_bx
+    .post_follow_bx
+    .follow_bx
+    .trend_for_you
+    .trend_bx .rate button:hover{
+    color: rgb(0, 0, 0);
+}
+header
+section
+    .profile_post_follow_bx
+    .post_follow_bx
+    .follow_bx
+    .trend_for_you
+    .trend_bx .rate button i{
+        margin-right: 5px;
+}
+header
+section
+    .profile_post_follow_bx
+    .post_follow_bx
+    .follow_bx
+    .trend_for_you
+    .trend_bx .rate .interest{
+        height: 0;
+        overflow: hidden;
 }
